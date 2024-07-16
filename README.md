@@ -13,3 +13,11 @@ merge_geojson.exe -i "YOUR\PATH\file1.geojson" "YOUR\PATH\file2.geojson" -o "YOU
 pause
 ```
 You can supply as many input files as you want but only one output file.
+
+# Used python packages
+The following python packages are used (if running the python file, these have to be installed using pip for example):
+```
+sys
+geojson
+argparse
+```
